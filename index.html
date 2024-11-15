@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+
+  <body class="text-dark" style="background-color: #f7ecde">
+    <main class="container py-5">
+      <div class="container d-flex justify-content-center aligm-items-center">
+        <h1 id="title">BookMarker</h1>
+      </div>
+      <hr class="my-5" />
+
+      <div
+        class="bookmark container d-flex justify-content-center aligm-items-center"
+      >
+        <h2>
+          <i class="fa-solid fa-bookmark"></i>Bookmark your favorite sites
+          <i class="fa-solid fa-bookmark"></i>
+        </h2>
+      </div>
+
+      <!-- <div class="container "> -->
+      <div>
+        <div class="form-group my-3">
+          <label for="siteNameInput"
+            ><i class="fa-solid fa-book-bookmark pe-2"></i> Site Name</label
+          >
+          <input id="siteNameInput" type="text" class="form-control" />
+        </div>
+
+        <div class="form-group my-3">
+          <label for="siteURLInput"
+            ><i class="fa-solid fa-link pe-2"></i>Site URL</label
+          >
+          <input id="siteURLInput" type="text" class="form-control" />
+        </div>
+
+        <button onclick="addProduct()" class="btn btn-info d-flex m-auto">
+          Add Product
+        </button>
+      </div>
+      <hr class="my-5" />
+      <div class="mt-5">
+        <table
+          class="table bg-dark"
+          style="
+            --bs-body-bg: rgb(255, 255, 255);
+            --bs-table-color-state: rgb(0, 0, 0);
+          "
+        >
+          <thead>
+            <tr>
+              <td>Index</td>
+              <td>Website Name</td>
+              <td>Url</td>
+              <td>Visit</td>
+              <td>Delete</td>
+              
+              
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="JS/index.js"></script>
+  </body>
+</html>

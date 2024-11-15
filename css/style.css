@@ -1,0 +1,57 @@
+h1 {
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  color: #352e28;
+}
+
+
+.bookmark h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+.btn:hover {
+    color: #fff  ;
+    background-color:  #6e473d;
+    border-color: #bb4120;
+}
+.btn{
+    color: #fff  ;
+    background-color:  #bb4120;
+    border-color: #bb4120
+}
+#visit{
+  color: #fff  ;
+  background-color:   #3ca55c;
+  border-color:  #3ca55c;
+  width: 100px;
+  border-radius:5% ;
+  height: 40px;
+  
+}
+#visit:hover{
+  background-color: #2fdd41bf  ;
+
+ 
+}
+#delete{
+  color: #fff  ;
+  background-color:   #d31c1c;
+  border-color:  #e22626;
+  width: 100px;
+  border-radius:5% ;
+ height: 40px;
+}
+#delete:hover{
+  background-color: #d31c1c95  ;
+}
+
+
+#title h1{
+    background-color: #bb4120;
+    
+}
